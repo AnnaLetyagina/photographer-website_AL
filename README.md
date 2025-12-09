@@ -10,8 +10,8 @@
 Содержит портфолио, информацию об услугах и контакты.
 
  Ссылки
-- GitHub репозиторий: https://github.com/username/photographer-website](https://github.com/AnnaLetyagina/photographer-website_AL.git
-- GitHub Pages: https://username.github.io/photographer-website
+- GitHub репозиторий: https://github.com/AnnaLetyagina/photographer-website_AL.git
+- GitHub Pages: https://annaletyagina.github.io/photographer-website_AL/
 
  Используемые технологии
 - HTML5
