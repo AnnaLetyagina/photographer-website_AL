@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-визитка для фотографа</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/camera.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="menu-check" hidden>
+            <a href="#" class="logo-link">
+                <img src="images/logo.png" alt="Логотип фотографа" width="65" height="65">
+            </a>
+            <div class="nav-links">
+                <a href="#">Главная</a>
+                <a href="#portfolio">Портфолио</a>
+                <a href="#services and prices">Услуги</a>
+                <a href="#contact">Контакты</a>
+            </div>
+            <label for="menu-check" class="menu-toggle" aria-label="Открыть меню">
+                <span class="menu-line">
+                    <a href="#">Главная</a>
+                </span>
+                <span class="menu-line">
+                    <a href="#portfolio">Портфолио</a>
+                </span>
+                <span class="menu-line">
+                    <a href="#services and prices">Услуги</a>
+                </span>
+                <span class="menu-line">
+                    <a href="#contact">Контакты</a>
+                </span>
+            </label>
+        </nav>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <div class="info">
+                <h1>"Профессиональная фотосъёмка"</h1>
+                <h2>"Ловлю моменты, создаю воспоминания"</h2>
+                <a href="#contact">Связаться со мной</a>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <div class="portfolio-header text-center">
+                <h1 class="gallery-title">Мои работы</h1>
+            </div>
+        </div>
+        <div class="portfolio-grid">
+            <div class="gallery_product" data-category="wedding">
+                <img src="images/portfolio1_wedding photography.jpg" alt="Свадебная фотография">
+            </div>
+            <div class="gallery_product" data-category="portrait">
+                <img src="images/portfolio2_portrait.jpg" alt="Портретная фотография">
+            </div>
+            <div class="gallery_product" data-category="landscape">
+                <img src="images/portfolio3_landscape.jpg" alt="Пейзажная фотография">
+            </div>
+            <div class="gallery_product" data-category="buildings">
+                <img src="images/portfolio4_buildings.jpg" alt="Архитектурная фотография">
+            </div>
+            <div class="gallery_product" data-category="cars">
+                <img src="images/portfolio5_cars.jpg" alt="Автомобильная фотография">
+            </div>
+            <div class="gallery_product" data-category="whale">
+                <img src="images/portfolio6_whale.jpg" alt="Фотография кита">
+            </div>
+        </div>
+    </section>
+    <section id="services and prices">
+        <h1 class="services-title">Услуги и цены</h1>
+        <div class="services-container">
+            <div class="list">
+                <div class="service-icon">💍</div>
+                <h2>Свадебная съёмка</h2>
+                <p>Запечатлею самый важный день в вашей жизни. Полная съёмка от подготовки до первого танца.</p>
+                <div class="service-price">
+                    <span class="price-amount">от 25 000 ₽</span>
+                    <span class="price-note">(за 8 часов съёмки)</span>
+                </div>
+                <a href="#" class="button"><span>Заказать</span></a>
+            </div>
+            <div class="list">
+                <div class="service-icon">👤</div>
+                <h2>Портретная съёмка</h2>
+                <p>Индивидуальные портреты, которые раскрывают вашу личность и индивидуальность.</p>
+                <div class="service-price">
+                    <span class="price-amount">от 8 000 ₽</span>
+                    <span class="price-note">(2 часа съёмки)</span>
+                </div>
+                <a href="#" class="button"><span>Заказать</span></a>
+            </div>
+            <div class="list">
+                <div class="service-icon">👨‍👩‍👧‍👦</div>
+                <h2>Семейная фотосессия</h2>
+                <p>Тёплые семейные фотографии, которые сохранят атмосферу любви и взаимопонимания.</p>
+                <div class="service-price">
+                    <span class="price-amount">от 12 000 ₽</span>
+                    <span class="price-note">(3 часа съёмки)</span>
+                </div>
+                <a href="#" class="button"><span>Заказать</span></a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="contact-title">Связаться со мной</h1>
+        <div id="contact_row">
+            <div class="contact_col">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <p>г. Москва, ул. Творческая, д. 10</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <a href="mailto:anna.photo@gmail.com" class="contact-link">
+                                annaletyagina.photo@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <a href="tel:+7 (495) 222-33-44" class="contact-link">
+                                +7 (495) 222-33-44
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h3> Следуйте за мной в ТГ</h3>
+                        <a href="#" class="telegram-link">
+                            <i class="fab fa-telegram"></i>
+                            <span>@photo_annaletyagina</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_col">
+                <form class="contact-form">
+                    <h2>Простая контактная форма</h2>
+                    <div class="form-group">
+                        <input type="text" placeholder="Имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="6" placeholder="Тип сообщения" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="container"></div>
+    <footer>
+        <section class="ft-main">
+            <div class="ft-main-items">
+                <h2 class="ft-title">© 2025 Анна Летягина. Все права защищены.</h2>
+                <ul>
+                    <a href="#">Наверх</a>
+                </ul>
+            </div>
+        </section>
+        <section class="ft-social">
+            <ul class="ft-social-list">
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+            </ul>
+        </section>
+    </footer>
+</body>
+
+</html>
