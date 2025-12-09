@@ -1,0 +1,21 @@
+Сайт-визитка для фотографа
+
+ Автор
+- ФИО: Летягина Анна Валерьевна
+- Группа: ИСИП-231
+- Специальность: 09.02.07 «Информационные системы и программирование»
+
+ Описание проекта
+Одностраничный сайт-визитка для фотографа, созданный в рамках конкурса профессионального мастерства.  
+Содержит портфолио, информацию об услугах и контакты.
+
+ Ссылки
+- GitHub репозиторий: https://github.com/username/photographer-website](https://github.com/AnnaLetyagina/photographer-website_AL.git
+- GitHub Pages: https://username.github.io/photographer-website
+
+ Используемые технологии
+- HTML5
+- CSS3
+- Git, GitHub Pages
+- Google Fonts (опционально)
+- FontAwesome (опционально)
